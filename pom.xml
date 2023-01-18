@@ -69,6 +69,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>simple-project-image</finalName>
     </build>
 
 </project>
