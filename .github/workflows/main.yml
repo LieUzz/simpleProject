@@ -32,7 +32,7 @@ jobs:
       with:
         image: lieuzz/simple-project-image
         tags: latest
-        registry: docker.io
+        registry: registry-url.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
